@@ -1,0 +1,6 @@
+# Only what the deployed Streamlit app needs
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+matplotlib>=3.8

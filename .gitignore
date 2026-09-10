@@ -1,0 +1,20 @@
+# Python cache and environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw data (download it yourself, see README)
+data/raw/
+
+# Processed data: ignore everything except the small summary the app needs
+data/processed/*
+!data/processed/summary_by_version.csv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
